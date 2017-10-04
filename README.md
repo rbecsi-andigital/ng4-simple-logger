@@ -19,11 +19,11 @@ imports: [
 
 in your service/component:
 
+```typescript
 import { Logger } from './logger';
 
 ...
 
-```typescript
 constructor(private logger: Logger) {
     this.logger.debug('message with additional object', { hi: 'text' });
     this.logger.info('just message');
