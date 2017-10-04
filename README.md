@@ -7,7 +7,7 @@ Copy the file into your project.
 To initialise and configure the logger do the following in your app.module.ts:
 
 ```typescript
-import { LoggerLevels, LoggerModule } from './utils/logger';
+import { LoggerLevels, LoggerModule } from './logger';
 
 ...
 
@@ -19,7 +19,7 @@ imports: [
 
 in your service/component:
 
-import { Logger } from './utils/logger';
+import { Logger } from './logger';
 
 ...
 
